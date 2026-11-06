@@ -1,10 +1,10 @@
-# LUMÉRA LIVING – Affordable Luxury Home Décor Online
+# PEARL DÉCOR – Affordable Luxury Home Décor Online
 
-100% exact replica of [lumera-living.vercel.app](https://lumera-living.vercel.app/) — a modern, responsive luxury home décor e-commerce website.
+Modern, responsive luxury home décor e-commerce website.
 
 ## ✨ Features Included
 
-- **Elegantly Designed Hero & Branding**: Cormorant Garamond & Inter typography, gold and pearl color palette with smooth gradients.
+- **Branding**: Cormorant Garamond & Inter typography, gold and pearl color palette with smooth gradients.
 - **Dynamic Product Catalog**: 29 curated home décor items across 9 categories (Living Room, Lighting, Wall Décor, Bedroom, Kitchen & Dining, Bathroom, Festive, Artificial Plants, Gifting).
 - **Interactive SVG Visualizations**: 27 custom vector product illustrations with multi-perspective thumbnails and shimmer effects.
 - **Advanced Filtering & Sorting**:
@@ -16,12 +16,12 @@
 - **Slide-out Cart Drawer**:
   - Add/remove items with live stock limiting
   - Quantity increment/decrement
-  - Coupon support (`LUMERA10` for 10% off, `WELCOME200` for ₹200 off on ₹1,500+)
+  - Coupon support (`PEARL10` for 10% off, `WELCOME200` for ₹200 off on ₹1,500+)
   - Free shipping calculation (free over ₹1,999)
   - 18% GST calculation and live totals
 - **Interactive Checkout & Order Tracking**:
   - Seamless checkout flow with address validation
-  - Generates unique Order IDs
+  - Generates unique Order IDs (`PD...`)
   - Order status tracking (`Confirmed` → `Packed` → `Shipped` → `Delivered`)
   - Order cancellation option
 - **Personalized Décor Guide Booklet Builder**:
@@ -35,7 +35,7 @@
 ## 🚀 How to Run
 
 ### Method 1: Direct File
-Simply double-click `index.html` to open it in any web browser (Chrome, Edge, Safari, Firefox).
+Simply double-click `index.html` to open it in any web browser.
 
 ### Method 2: Local HTTP Server (Python)
 ```bash
@@ -45,13 +45,5 @@ Open `http://localhost:3000` in your browser.
 
 ### Method 3: Local HTTP Server (Node.js)
 ```bash
-npx serve .
+npm start
 ```
-
-## 🌐 Deployment
-
-You can deploy this site in one click to:
-- **Vercel**: Run `vercel` or link your GitHub repo.
-- **Netlify**: Drag and drop the folder into Netlify Drop.
-- **GitHub Pages**: Push to a repository and enable GitHub Pages on `main`.
-
