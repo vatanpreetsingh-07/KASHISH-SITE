@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LUMÉRA LIVING – Affordable Luxury Home Décor Online</title>
+<meta name="description" content="Premium home décor online at affordable prices. Vases, lighting, wall art and gifting from LUMÉRA LIVING. Luxury in every detail.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop stop-color='%23e6d3ac'/%3E%3Cstop offset='.5' stop-color='%23b8955a'/%3E%3Cstop offset='1' stop-color='%23f1e4c3'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='24' cy='24' r='22' fill='%232b2622' stroke='url(%23g)' stroke-width='1.5'/%3E%3Cpath d='M14 12v22h10M24 12v22h10' fill='none' stroke='url(%23g)' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='24' cy='8' r='3' fill='%23fff' stroke='url(%23g)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf8f3;--card:#fff;--ink:#2b2622;--mut:#7a6f66;--gold:#b8955a;--gold2:#e6d3ac;--blush:#f4e4e0;--line:#eadfd0;--sh:0 10px 30px rgba(120,95,60,.12);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1a17;--card:#27231f;--ink:#f3ece1;--mut:#b5a998;--line:#3b342d;--blush:#33292a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1d1a17;--card:#27231f;--ink:#f3ece1;--mut:#b5a998;--line:#3b342d;--blush:#33292a;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+h1,h2,h3,.serif{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.15;margin:0}
+h2{font-size:clamp(28px,4vw,42px);text-align:center;margin-bottom:8px}.sub{text-align:center;color:var(--mut);margin:0 0 32px}
+section{padding:64px 5vw;max-width:1280px;margin:auto}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:16px;padding:10px 5vw;max-width:1400px;margin:auto}
+.logo{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}.logo b{font:600 22px "Cormorant Garamond",serif;letter-spacing:.18em}
+nav{display:flex;gap:18px;flex:1;justify-content:center}nav a{color:var(--ink);text-decoration:none;font-size:14px}nav a:hover{color:var(--gold)}
+.sw{position:relative}.sw input{width:170px}.sug{position:absolute;top:44px;left:0;right:0;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:var(--sh);display:none;overflow:hidden}.sug button{display:block;width:100%;text-align:left;border:0;background:none;padding:9px 12px;color:var(--ink);cursor:pointer;font:inherit;font-size:14px}.sug button:hover{background:var(--blush)}
+.ic{position:relative;border:0;background:none;font-size:20px;cursor:pointer;color:var(--ink)}.ic i{position:absolute;top:-6px;right:-8px;background:var(--gold);color:#fff;border-radius:99px;font:600 10px Inter;padding:1px 6px;font-style:normal}
+#mb{display:none}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;width:100%}
+label{font-size:13px;color:var(--mut);display:block;margin:12px 0 4px}
+.btn{display:inline-block;border:0;border-radius:99px;padding:12px 26px;font:600 14px Inter;cursor:pointer;text-decoration:none;background:linear-gradient(135deg,#d9bd86,#b8955a 55%,#e6d3ac);color:#2b2622;box-shadow:0 6px 18px rgba(184,149,90,.35);transition:.25s}.btn:hover{transform:translateY(-2px)}
+.btn.o{background:transparent;border:1px solid var(--gold);color:var(--ink);box-shadow:none}.btn.s{padding:8px 16px;font-size:13px}
+.hero{min-height:84vh;display:grid;place-items:center;text-align:center;padding:80px 6vw;background:radial-gradient(circle at 20% 20%,#fff 0,transparent 40%),radial-gradient(circle at 80% 70%,var(--blush),transparent 45%),linear-gradient(160deg,#f7efe3,#fbf8f3 60%,#efe3d1);max-width:none;color:#2b2622}
+.hero h1{font-size:clamp(40px,7vw,84px);max-width:900px;margin:12px auto}.hero p{max-width:620px;margin:0 auto 28px;color:#6b5f54}.eyebrow{letter-spacing:.3em;font-size:12px;text-transform:uppercase;color:var(--gold)}
+.hero .btn.o{color:#2b2622}
+.chips{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}.chip{padding:26px 12px;border-radius:20px;text-align:center;background:linear-gradient(145deg,var(--card),var(--blush));border:1px solid var(--line);cursor:pointer;font:inherit;color:var(--ink);transition:.3s}.chip:hover{transform:translateY(-4px);box-shadow:var(--sh)}.chip span{display:block;font-size:32px}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px}.tools select{flex:1;min-width:140px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}
+.card{background:var(--card);border-radius:20px;overflow:hidden;border:1px solid var(--line);transition:.3s;position:relative}.card:hover{transform:translateY(-5px);box-shadow:var(--sh)}
+.art{aspect-ratio:1;display:grid;place-items:center;font-size:72px;cursor:pointer;position:relative;background:linear-gradient(135deg,var(--c1),var(--c2))}
+.art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}.art:after{z-index:2;pointer-events:none;opacity:.35;content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.55) 48%,transparent 62%)}
+.tag{position:absolute;top:10px;left:10px;z-index:2;background:var(--card);color:var(--ink);font-size:11px;padding:3px 10px;border-radius:99px}
+.wl{position:absolute;top:8px;right:10px;z-index:2;border:0;background:var(--card);border-radius:50%;width:34px;height:34px;cursor:pointer;font-size:16px;color:var(--gold)}
+.info{padding:14px}.info h3{font-size:19px;cursor:pointer}.price b{font-size:18px}.price s{color:var(--mut);font-size:13px;margin:0 6px}.price em{color:#3d8a5a;font-style:normal;font-size:12px}.rt{color:var(--gold);font-size:13px}
+dialog{border:0;border-radius:24px;padding:0;background:var(--card);color:var(--ink);max-width:min(900px,94vw);width:100%;box-shadow:0 30px 80px rgba(0,0,0,.35)}dialog::backdrop{background:rgba(30,24,18,.55);backdrop-filter:blur(4px)}
+.dp{padding:24px;position:relative;max-height:88vh;overflow:auto}.x{position:absolute;top:12px;right:16px;border:0;background:none;font-size:26px;cursor:pointer;color:var(--ink);z-index:3}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:24px}.thumbs{display:flex;gap:8px;margin-top:8px}.thumbs div{flex:1;aspect-ratio:1;border-radius:12px;overflow:hidden}
+table{width:100%;font-size:14px;border-collapse:collapse}td{padding:6px 0;border-bottom:1px solid var(--line)}td:first-child{color:var(--mut);width:40%}
+.qty{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:99px}.qty button{border:0;background:none;width:32px;height:32px;cursor:pointer;font-size:16px;color:var(--ink)}
+#cart{position:fixed;top:0;right:0;bottom:0;width:min(420px,100vw);background:var(--card);z-index:50;transform:translateX(105%);transition:.35s;padding:20px;padding-top:calc(20px + env(safe-area-inset-top,0px));display:flex;flex-direction:column;box-shadow:-20px 0 60px rgba(0,0,0,.2)}#cart.on{transform:none}
+.items{flex:1;overflow:auto}.ci{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}.ci .art{width:56px;font-size:26px;border-radius:12px;aspect-ratio:1;cursor:default}.ci div:nth-child(2){flex:1;font-size:14px}
+.sum div{display:flex;justify-content:space-between;font-size:14px;padding:2px 0}
+.rg{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0 20px}
+.pay label{display:flex;gap:8px;align-items:center;color:var(--ink);margin:6px 0}.pay .off{opacity:.45}.pay input{width:auto}
+.glass{background:linear-gradient(145deg,color-mix(in srgb,var(--card) 90%,transparent),var(--blush));border:1px solid var(--line);border-radius:28px;padding:32px;box-shadow:var(--sh)}
+.bk{margin-top:28px}.bk .row{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-bottom:1px dashed var(--line);font-size:14px}
+.tst{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}.tst .glass{padding:22px}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin:8px 0}summary{cursor:pointer;font-weight:500}
+footer{background:linear-gradient(160deg,#efe3d1,#f7efe3);color:#2b2622;padding:48px 5vw calc(20px + env(safe-area-inset-bottom,0px))}footer a{color:#2b2622;text-decoration:none;display:block;font-size:14px;padding:2px 0}footer a:hover{color:var(--gold)}
+.fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:28px;max-width:1280px;margin:auto}footer h4{margin:0 0 8px;font:600 18px "Cormorant Garamond",serif}
+#toast{position:fixed;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:50%;transform:translate(-50%,100px);background:#2b2622;color:#fff;padding:10px 20px;border-radius:99px;z-index:99;transition:.3s;font-size:14px}#toast.on{transform:translate(-50%,0)}
+.note{font-size:12px;color:var(--mut)}
+@media(max-width:860px){nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg);flex-direction:column;padding:16px 5vw;border-bottom:1px solid var(--line)}nav.on{display:flex}#mb{display:block}.two{grid-template-columns:1fr}.sw input{width:110px}.bar{gap:10px}.logo b{font-size:17px}}
+@media print{header,footer,section:not(#guide),.noprint,#cart{display:none!important}body{background:#fff;color:#000}}
+</style></head><body>
+<header><div class="bar">
+<button class="ic" id="mb" aria-label="Menu">☰</button>
+<a class="logo" href="#home" aria-label="LUMÉRA LIVING home"><svg width="38" height="38" viewBox="0 0 48 48"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e6d3ac"/><stop offset=".5" stop-color="#b8955a"/><stop offset="1" stop-color="#f1e4c3"/></linearGradient></defs><circle cx="24" cy="24" r="22" fill="none" stroke="url(#g)" stroke-width="1.5"/><path d="M14 12v22h10M24 12v22h10" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/><circle cx="24" cy="8" r="3" fill="#fff" stroke="url(#g)"/></svg><b>LUMÉRA</b></a>
+<nav id="nav"><a href="#home">Home</a><a href="#shop" data-f="">Shop</a><a href="#collections">Collections</a><a href="#shop" data-s="new">New Arrivals</a><a href="#shop" data-s="pop">Best Sellers</a><a href="#guide">Inspiration</a><a href="#about">About Us</a><a href="#contact">Contact</a></nav>
+<div class="sw"><input id="q" placeholder="Search décor…" autocomplete="off" aria-label="Search"><div class="sug" id="sug"></div></div>
+<button class="ic" id="acc" title="Account">👤</button><button class="ic" id="wb" title="Wishlist">♡<i id="wc">0</i></button><button class="ic" id="cb" title="Cart">🛍<i id="cc">0</i></button>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div><div class="eyebrow">Luxury in Every Detail. Comfort in Every Corner.</div>
+<h1 class="serif">Make Every Corner Feel Special.</h1>
+<p>Discover thoughtfully curated home décor that brings affordable luxury into your everyday life.<br><i>Transforming Ordinary Spaces into Extraordinary Stories.</i></p>
+<a class="btn" href="#shop">Shop Now</a> <a class="btn o" href="#collections">Explore Collections</a></div></section>
+
+<section id="collections"><h2>Featured Collections</h2><p class="sub">Choose a room or a mood</p><div class="chips" id="chips"></div>
+<div class="chips" style="margin-top:14px" id="promo"></div></section>
+
+<section id="shop"><h2>The Collection</h2><p class="sub">Demo products with indicative prices (₹, GST included)</p>
+<div class="tools"><select id="fc"></select><select id="fp"><option value="">Any price</option><option value="0-799">₹199–₹799 Affordable</option><option value="800-1999">₹800–₹1,999 Elegant</option><option value="2000-4999">₹2,000–₹4,999 Premium</option><option value="5000-99999">₹5,000+ Signature</option></select><select id="fcol"></select><select id="fr"><option value="0">Any rating</option><option value="4.5">4.5★ &amp; up</option><option value="4.7">4.7★ &amp; up</option></select><select id="fs"><option value="pop">Popularity</option><option value="new">Newest</option><option value="lo">Price: low to high</option><option value="hi">Price: high to low</option><option value="rt">Customer rating</option></select></div>
+<div class="grid" id="grid"></div><div id="rv"></div></section>
+
+<section id="guide"><h2>Your Space, Our Signature</h2><p class="sub">Personalized Décor Guide – tell us what you need and get a budget-first booklet.</p>
+<div class="glass noprint"><form id="gf"><div class="rg">
+<div><label>Space</label><select name="space"><option>Living room</option><option>Bedroom</option><option>Kitchen</option><option>Dining area</option><option>Bathroom</option><option>Entire home</option><option>Office</option></select></div>
+<div><label>Interior style</label><select name="style"><option>Modern minimalist</option><option>Royal luxury</option><option>Contemporary</option><option>Bohemian</option><option>Scandinavian</option><option>Traditional Indian</option><option>Vintage</option><option>Glamorous pearlescent</option></select></div>
+<div><label>Budget</label><select name="budget"><option value="2000">Below ₹2,000</option><option value="5000">₹2,000–₹5,000</option><option value="10000">₹5,000–₹10,000</option><option value="25000">₹10,000–₹25,000</option><option value="40000">Above ₹25,000</option></select></div>
+<div><label>Colour theme</label><select name="col"><option>Ivory and gold</option><option>Pearl white and silver</option><option>Beige and brown</option><option>Pastel shades</option><option>Black and gold</option><option>Custom colour combination</option></select></div>
+<div><label>Purpose</label><select name="purpose"><option>Home makeover</option><option>New home decoration</option><option>Wedding gifting</option><option>Festive decoration</option><option>Rental home styling</option><option>Everyday home improvement</option></select></div>
+<div><label>Room photo (optional, stays on your device)</label><input type="file" name="photo" accept="image/*"></div></div>
+<label>Additional requirements</label><textarea name="extra" rows="3" maxlength="500" placeholder="e.g. small balcony-facing room, pets at home…"></textarea>
+<p><button class="btn">Create my décor booklet</button></p></form></div>
+<div id="booklet" class="bk"></div></section>
+
+<section id="reviews"><h2>Loved by Homeowners</h2><p class="sub">Sample testimonials – replace with verified reviews</p><div class="tst">
+<div class="glass">★★★★★<p>“The vase looks far more expensive than it is. My living room feels completely new.”</p><b>Ananya S., Gurugram</b></div>
+<div class="glass">★★★★★<p>“Gifted a hamper at a housewarming – everyone asked where it was from.”</p><b>Rohit M., Delhi</b></div>
+<div class="glass">★★★★☆<p>“Pearl lamp is gorgeous, delivery was quick and packaging was lovely.”</p><b>Meera K., Chandigarh</b></div></div></section>
+
+<section id="about"><h2>About LUMÉRA LIVING</h2><p class="sub">Our story</p><div class="glass" style="max-width:820px;margin:auto"><p>LUMÉRA LIVING was created with a simple belief: every home deserves to feel beautiful. We bring together thoughtfully selected décor, timeless aesthetics, and accessible pricing to help people create spaces that reflect their personality. Our vision is to make the experience of luxury home styling accessible to everyone.</p><p><b>Mission:</b> curated, beautiful décor at honest prices. <b>Values:</b> elegance, transparency, quality, care.</p></div>
+<div style="max-width:820px;margin:32px auto 0"><h2 style="font-size:28px">FAQs</h2>
+<details><summary>How long does delivery take?</summary><p>Typically 4–7 business days across India (demo estimate).</p></details>
+<details><summary>What is the return policy?</summary><p>7-day returns on unused items in original packaging (demo policy – finalise before launch).</p></details>
+<details><summary>Which payments are accepted?</summary><p>Cash on Delivery is live in this demo. UPI, cards, net banking and wallets switch on once a gateway such as Razorpay is connected.</p></details></div></section>
+
+<section id="contact"><h2>Contact Us</h2><p class="sub">Replace the placeholders below with your official details.</p>
+<div class="two" style="max-width:900px;margin:auto"><div class="glass"><p>✉ <a id="em" href="mailto:INSERT-EMAIL@example.com">[INSERT OFFICIAL BUSINESS EMAIL]</a></p><p>☎ <a id="ph" href="tel:+910000000000">[INSERT OFFICIAL CONTACT NUMBER]</a></p><p>💬 <a id="wa" href="https://wa.me/910000000000">WhatsApp [INSERT NUMBER]</a></p><p>📍 [INSERT BUSINESS ADDRESS]</p><p class="note">Google Maps embed: add once the address is confirmed.</p></div>
+<form class="glass" id="cf"><label>Name</label><input name="n" required><label>Email</label><input name="e" type="email" required><label>Phone</label><input name="p" type="tel" pattern="[0-9+ ]{10,14}"><label>Subject</label><input name="s" required><label>Message</label><textarea name="m" rows="3" required></textarea><p><button class="btn">Send message</button></p></form></div></section>
+</main>
+
+<footer><div class="fg"><div><h4>LUMÉRA LIVING</h4><p style="font-size:14px">Luxury in Every Detail. Comfort in Every Corner.</p></div>
+<div><h4>Quick Links</h4><a href="#home">Home</a><a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#about">About Us</a><a href="#contact">Contact</a></div>
+<div><h4>Customer Service</h4><a href="#about">FAQs</a><a href="#about">Shipping &amp; Returns</a><a href="#" id="tk">Track Order</a></div>
+<div><h4>Newsletter</h4><form id="nf"><input type="email" required placeholder="Your email" aria-label="Email"><p><button class="btn s">Subscribe</button></p></form><p class="note" style="color:#6b5f54">Social: Instagram · Facebook · Pinterest · YouTube (add links)</p></div></div>
+<p style="text-align:center;font-size:12px;margin-top:28px">© 2026 LUMÉRA LIVING. Demo catalogue – prices indicative. Privacy · Terms · Cookies pages to be added.</p></footer>
+
+<aside id="cart" aria-label="Cart"><button class="x" id="cx">×</button><h3 style="font-size:28px">Your Cart</h3><div class="items" id="ci"></div>
+<div class="sum" id="sm"></div><div style="display:flex;gap:6px;margin:10px 0"><input id="cp" placeholder="Coupon (try LUMERA10)"><button class="btn s o" id="ca">Apply</button></div><button class="btn" id="co" style="width:100%">Checkout</button></aside>
+<dialog id="dlg"><div class="dp"><button class="x" id="dx">×</button><div id="dc"></div></div></dialog>
+<div id="toast"></div>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const ld=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const inr=n=>"₹"+Math.round(n).toLocaleString("en-IN");
+const CAT={"Living Room":"🏺","Lighting":"💡","Wall Décor":"🖼","Bedroom":"🛏","Kitchen & Dining":"🍽","Bathroom":"🧴","Festive":"🪔","Artificial Plants":"🌿","Gifting":"🎁"};
+const COL={Ivory:["#fbf6ea","#e9dcc0"],Gold:["#f1e1b6","#c9a35e"],Blush:["#f9e6e2","#e6bfb8"],Pearl:["#ffffff","#e4e0dc"],Beige:["#efe3d1","#cdb594"],Green:["#e6eedf","#a9bf9a"]};
+// name,cat,price,mrp,material,colour,style,rating,sold
+const P=[["Pearl Glaze Ceramic Vase","Living Room",1299,1899,"Glazed ceramic","Pearl","Glamorous pearlescent",4.8,420],["Gold-Rim Decorative Tray","Living Room",699,999,"Resin & metal","Gold","Royal luxury",4.6,380],["Pearl Bead Candle Holder Set","Living Room",499,799,"Glass & brass","Pearl","Contemporary",4.7,510],["Sculpted Ivory Showpiece","Living Room",2499,3499,"Polyresin","Ivory","Modern minimalist",4.5,120],["Marble-Effect Bowl","Living Room",899,1299,"Ceramic","Ivory","Scandinavian",4.4,240],["Champagne Orb Table Lamp","Lighting",2799,3999,"Metal & fabric","Gold","Royal luxury",4.8,210],["Warm LED Fairy Lights","Lighting",249,399,"Copper wire","Gold","Bohemian",4.5,900],["Crystal Pendant Light","Lighting",4999,6999,"Crystal & metal","Pearl","Glamorous pearlescent",4.7,90],["Signature Pearl Chandelier","Lighting",11999,15999,"Crystal & brass","Gold","Royal luxury",4.9,25],["Abstract Gold-Leaf Canvas","Wall Décor",1799,2599,"Canvas","Beige","Contemporary",4.6,160],["Sunburst Metal Wall Art","Wall Décor",2299,3199,"Iron","Gold","Royal luxury",4.7,140],["Arched Pearl-Frame Mirror","Wall Décor",3499,4799,"Wood & glass","Pearl","Modern minimalist",4.8,110],["Gallery Wall Set (6)","Wall Décor",899,1399,"MDF","Ivory","Scandinavian",4.4,300],["Satin Cushion Cover Pair","Bedroom",399,699,"Satin","Blush","Glamorous pearlescent",4.6,640],["Soft Knit Throw","Bedroom",1199,1799,"Cotton blend","Beige","Scandinavian",4.7,260],["Egyptian-Feel Bedsheet Set","Bedroom",1899,2699,"Cotton sateen","Ivory","Contemporary",4.7,330],["Pearl Jewellery Organiser","Bedroom",799,1199,"Faux leather","Blush","Glamorous pearlescent",4.5,280],["Ceramic Dinner Set (16 pc)","Kitchen & Dining",3999,5499,"Bone-style ceramic","Ivory","Traditional Indian",4.6,130],["Linen Table Runner","Kitchen & Dining",349,599,"Linen blend","Beige","Scandinavian",4.3,350],["Etched Glass Storage Jars (3)","Kitchen & Dining",599,899,"Glass","Pearl","Modern minimalist",4.5,410],["Pearl Soap Dispenser","Bathroom",299,499,"Ceramic","Pearl","Modern minimalist",4.6,520],["Woven Storage Basket","Bathroom",649,949,"Seagrass","Beige","Bohemian",4.4,230],["Diwali Glamour Diya Set","Festive",449,799,"Brass-finish","Gold","Traditional Indian",4.8,760],["Festive Torana Door Hanging","Festive",799,1199,"Beads & fabric","Gold","Traditional Indian",4.6,310],["Artificial Orchid in Pot","Artificial Plants",999,1499,"Silk & ceramic","Blush","Contemporary",4.7,370],["Bonsai Tree (Faux)","Artificial Plants",1499,2199,"Polymer","Green","Modern minimalist",4.5,190],["Luxe Housewarming Hamper","Gifting",2499,3499,"Assorted","Blush","Glamorous pearlescent",4.8,150],["Personalised Name Frame","Gifting",799,1199,"Wood","Ivory","Contemporary",4.5,200],["Limited Edition Pearl Sculpture","Living Room",7999,10999,"Resin & pearl inlay","Pearl","Glamorous pearlescent",4.9,18]]
+.map((p,i)=>({id:i,name:p[0],cat:p[1],price:p[2],mrp:p[3],mat:p[4],col:p[5],style:p[6],rt:p[7],sold:p[8],stock:(i*7)%11===0?0:(i*5)%9+3}));
+let cart=ld("lc_cart",{}),wish=ld("lc_wish",[]),orders=ld("lc_orders",[]),recent=ld("lc_recent",[]),disc=0,coupon=null;
+const toast=t=>{const e=$("#toast");e.textContent=t;e.classList.add("on");setTimeout(()=>e.classList.remove("on"),2200)};
+const KIND=[[/vase/,"vase"],[/tray/,"tray"],[/candle/,"candle"],[/chandelier|pendant/,"pend"],[/orb/,"orb"],[/lamp/,"lamp"],[/fairy/,"fairy"],[/sunburst/,"sun"],[/mirror/,"mirror"],[/gallery/,"gallery"],[/canvas|abstract/,"canvas"],[/cushion/,"cush"],[/throw|bedsheet/,"throw"],[/jewel/,"jewel"],[/dinner/,"dinner"],[/runner/,"runner"],[/jar/,"jars"],[/soap|dispenser/,"pump"],[/basket/,"basket"],[/diya/,"diya"],[/torana/,"torana"],[/orchid/,"orchid"],[/bonsai/,"bonsai"],[/hamper/,"hamper"],[/frame/,"frame"],[/sculpt|showpiece/,"sculpt"],[/bowl/,"bowl"]];
+const R=(n,f)=>Array.from({length:n},(_,i)=>f(i)).join("");
+const D={
+vase:(o,g,a,b)=>`<path d="M43 24h14c1 9 14 15 14 36 0 13-9 22-21 22s-21-9-21-22c0-21 13-27 14-36z" fill="${o}"/><ellipse cx="50" cy="24" rx="7.5" ry="2.5" fill="${g}"/><path d="M37 52q-3 14 4 24" stroke="#fff" stroke-width="3" fill="none" opacity=".7" stroke-linecap="round"/><path d="M42 58q8 6 16 0" stroke="${g}" fill="none"/>`,
+tray:(o,g,a,b)=>`<ellipse cx="50" cy="66" rx="38" ry="12" fill="${b}"/><ellipse cx="50" cy="62" rx="38" ry="12" fill="${o}" stroke="${g}" stroke-width="2"/><ellipse cx="50" cy="62" rx="31" ry="8" fill="${a}" opacity=".7"/><rect x="38" y="46" width="8" height="14" rx="3" fill="${g}"/><circle cx="60" cy="56" r="6" fill="#fff"/>`,
+candle:(o,g,a,b)=>[32,66].map(x=>`<rect x="${x-6}" y="62" width="12" height="18" rx="2" fill="${o}"/><rect x="${x-9}" y="58" width="18" height="5" rx="2" fill="${g}"/><rect x="${x-3}" y="34" width="6" height="24" rx="1" fill="#fff7e6"/><path d="M${x} 24q-5 7 0 11q5-4 0-11" fill="#f5b942"/>`).join(""),
+lamp:(o,g,a,b)=>`<path d="M32 18h36l9 30H23z" fill="${a}" stroke="${g}" stroke-width="1.5"/><rect x="48" y="48" width="4" height="26" fill="${g}"/><ellipse cx="50" cy="78" rx="16" ry="5" fill="${o}"/>`,
+orb:(o,g,a,b)=>`<circle cx="50" cy="38" r="22" fill="${o}"/><circle cx="42" cy="30" r="6" fill="#fff" opacity=".7"/><rect x="48" y="58" width="4" height="16" fill="${g}"/><ellipse cx="50" cy="78" rx="16" ry="5" fill="${g}"/>`,
+pend:(o,g,a,b)=>`<path d="M50 6v22" stroke="${g}" stroke-width="1.5"/><path d="M26 54q0-26 24-26t24 26z" fill="${o}"/><circle cx="50" cy="60" r="5" fill="#ffe9a8"/><path d="M34 62v10M44 66v13M56 66v13M66 62v10" stroke="${a}" stroke-width="3" stroke-linecap="round"/>`,
+fairy:(o,g)=>`<path d="M6 28Q50 76 94 28" fill="none" stroke="${g}"/>`+R(7,i=>{const t=(i+.5)/7;return`<circle cx="${6*(1-t)**2+100*t*(1-t)+94*t*t}" cy="${28*(1-t)**2+152*t*(1-t)+28*t*t+5}" r="3.2" fill="#ffd77a"/>`}),
+canvas:(o,g,a,b)=>`<rect x="20" y="16" width="60" height="66" fill="${a}" stroke="${g}" stroke-width="2.5"/><circle cx="42" cy="42" r="15" fill="${o}"/><path d="M26 72q22-30 48-8" stroke="${g}" stroke-width="3" fill="none"/><circle cx="64" cy="30" r="6" fill="${g}"/>`,
+sun:(o,g)=>R(16,i=>`<line x1="50" y1="46" x2="${50+30*Math.cos(i*Math.PI/8)}" y2="${46+30*Math.sin(i*Math.PI/8)}" stroke="${g}" stroke-width="2.5" stroke-linecap="round"/>`)+`<circle cx="50" cy="46" r="15" fill="${o}" stroke="${g}" stroke-width="2"/>`,
+mirror:(o,g)=>`<path d="M28 82V40q0-26 22-26t22 26v42z" fill="${g}"/><path d="M33 79V41q0-22 17-22t17 22v38z" fill="#e9f1f3"/><path d="M38 68L58 28" stroke="#fff" stroke-width="4" opacity=".8"/>`,
+gallery:(o,g,a,b)=>R(6,i=>`<rect x="${14+i%3*25}" y="${22+(i>2)*28}" width="21" height="${i%2?22:25}" fill="#fff" stroke="${g}" stroke-width="1.5"/><path d="M${16+i%3*25} ${(i>2?72:44)}l7-9 6 6 5-4v8z" fill="${i%2?b:g}"/>`),
+cush:(o,g,a,b)=>`<g transform="rotate(-8 38 55)"><rect x="12" y="30" width="46" height="46" rx="9" fill="${o}"/><circle cx="35" cy="53" r="2" fill="${g}"/></g><g transform="rotate(8 62 55)"><rect x="42" y="28" width="46" height="46" rx="9" fill="${a}" stroke="${g}"/><circle cx="65" cy="51" r="2" fill="${g}"/></g>`,
+throw:(o,g,a,b)=>`<rect x="14" y="64" width="72" height="15" rx="5" fill="${b}"/><rect x="14" y="49" width="72" height="15" rx="5" fill="${o}"/><rect x="14" y="34" width="72" height="15" rx="5" fill="${a}" stroke="${g}"/><path d="M20 41h60" stroke="${g}" opacity=".6"/>`,
+jewel:(o,g,a,b)=>`<rect x="18" y="52" width="64" height="26" rx="6" fill="${o}"/><path d="M18 60h64" stroke="${g}"/>`+R(9,i=>`<circle cx="${24+i*6.5}" cy="${52-Math.sin(i/8*Math.PI)*22}" r="3.2" fill="#fff" stroke="${b}" stroke-width=".6"/>`),
+dinner:(o,g,a,b)=>[[72,34],[62,30],[52,26]].map(([y,r])=>`<ellipse cx="50" cy="${y}" rx="${r}" ry="${r/3}" fill="${o}" stroke="${g}"/><ellipse cx="50" cy="${y}" rx="${r*.65}" ry="${r/5}" fill="${a}"/>`).join(""),
+runner:(o,g,a,b)=>`<rect x="6" y="64" width="88" height="6" fill="${b}"/><path d="M4 56h92l-6 10H10z" fill="${o}"/><path d="M12 61h76" stroke="${g}" stroke-width="2"/><path d="M45 56v-14h10v14z" fill="${a}" stroke="${g}"/>`,
+jars:(o,g,a,b)=>[[14,24,32],[38,22,40],[62,24,28]].map(([x,w,h])=>`<rect x="${x}" y="${80-h}" width="${w}" height="${h}" rx="5" fill="${a}" stroke="${b}"/><rect x="${x+1}" y="${74-h}" width="${w-2}" height="7" rx="2" fill="${g}"/><rect x="${x+4}" y="${90-h-12}" width="${w-8}" height="${h-16}" rx="3" fill="${o}" opacity=".5"/>`).join(""),
+pump:(o,g)=>`<rect x="32" y="38" width="36" height="42" rx="9" fill="${o}"/><rect x="46" y="26" width="8" height="13" fill="${g}"/><path d="M46 26h20v-4H46z" fill="${g}"/><rect x="40" y="52" width="20" height="14" rx="3" fill="#fff" opacity=".6"/>`,
+basket:(o,g,a,b)=>`<path d="M32 40q0-20 18-20t18 20" fill="none" stroke="${g}" stroke-width="3"/><path d="M20 42h60l-6 40H26z" fill="${o}"/>`+R(5,i=>`<path d="M${22+i*1.2} ${48+i*7}h${56-i*2.4}" stroke="${b}" stroke-width="1.2"/>`),
+diya:(o,g)=>[[28,62],[50,74],[72,62]].map(([x,y])=>`<path d="M${x-13} ${y-6}h26q-2 12-13 12t-13-12z" fill="${g}"/><ellipse cx="${x}" cy="${y-6}" rx="13" ry="3" fill="${o}"/><path d="M${x} ${y-24}q-6 8 0 16q6-8 0-16" fill="#f5a623"/>`).join(""),
+torana:(o,g)=>`<path d="M6 16h88" stroke="${g}" stroke-width="3"/>`+R(8,i=>{const x=12+i*10,l=i%2?30:46;return`<path d="M${x} 16v${l}" stroke="${g}"/><circle cx="${x}" cy="${l+22}" r="4.5" fill="${i%3?o:"#e6bfb8"}"/><path d="M${x-3} ${l+26}l3 10 3-10z" fill="${g}"/>`}),
+orchid:(o,g)=>`<path d="M36 68h28l-4 16H40z" fill="${o}"/><path d="M50 68Q46 40 62 20" stroke="#7a9a6a" fill="none" stroke-width="2.5"/><ellipse cx="38" cy="62" rx="12" ry="4" fill="#8fb080" transform="rotate(-20 38 62)"/>`+[[62,22],[56,32],[50,44]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="6" fill="#f7d6dc"/><circle cx="${x}" cy="${y}" r="2" fill="${g}"/>`).join(""),
+bonsai:(o,g)=>`<path d="M30 70h40l-4 14H34z" fill="${o}"/><path d="M50 70q-6-14 2-26" stroke="#7a5b3a" stroke-width="5" fill="none" stroke-linecap="round"/>`+[[38,38,13],[56,32,15],[66,46,11],[46,48,10]].map(([x,y,r],i)=>`<circle cx="${x}" cy="${y}" r="${r}" fill="${i%2?"#7aa06c":"#8fb080"}"/>`).join(""),
+hamper:(o,g,a,b)=>`<path d="M18 50h64l-6 32H24z" fill="${o}"/><rect x="28" y="32" width="24" height="20" fill="${a}" stroke="${g}"/><path d="M40 32v20M28 42h24" stroke="${g}" stroke-width="2"/><rect x="58" y="24" width="11" height="28" rx="3" fill="#e6bfb8"/>`,
+frame:(o,g,a,b)=>`<rect x="22" y="18" width="56" height="64" fill="${g}"/><rect x="28" y="24" width="44" height="52" fill="#fff"/><path d="M28 70l14-17 10 10 8-8 12 15z" fill="${b}"/><circle cx="60" cy="38" r="5" fill="${a}" stroke="${b}"/>`,
+sculpt:(o,g,a,b)=>`<rect x="30" y="76" width="40" height="6" rx="2" fill="${g}"/>`+[[50,66,12],[50,46,15],[50,27,10]].map(([x,y,r])=>`<circle cx="${x}" cy="${y}" r="${r}" fill="${o}" stroke="${b}" stroke-width=".6"/><circle cx="${x-r/3}" cy="${y-r/3}" r="${r/4}" fill="#fff" opacity=".8"/>`).join(""),
+bowl:(o,g,a,b)=>`<path d="M14 44h72c0 24-15 38-36 38S14 68 14 44z" fill="${o}"/><ellipse cx="50" cy="44" rx="36" ry="6" fill="${a}" stroke="${g}"/>`};
+const svg=(p,v=0)=>{const [a,b]=COL[p.col],id=p.col+v,o=`url(#o${id})`,k=(KIND.find(x=>x[0].test(p.name.toLowerCase()))||[0,"frame"])[1];
+return `<svg viewBox="${v==1?"22 18 56 56":"0 0 100 100"}" width="100%" height="100%" role="img" aria-label="${esc(p.name)}" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="o${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${a}"/><stop offset=".55" stop-color="${b}"/><stop offset="1" stop-color="${a}"/></linearGradient><linearGradient id="w${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${v==2?"#f7e9e5":"#f4ece0"}"/><stop offset="1" stop-color="${v==2?"#e9d3ca":"#e4d4be"}"/></linearGradient></defs><rect x="-10" y="-10" width="120" height="120" fill="url(#w${id})"/><rect x="-10" y="84" width="120" height="30" fill="#000" opacity=".05"/><ellipse cx="50" cy="84" rx="30" ry="3.5" fill="#000" opacity=".14"/>${D[k](o,"#c9a35e",a,b)}</svg>`};
+const art=p=>{const c=COL[p.col];return `<div class="art" style="--c1:${c[0]};--c2:${c[1]}">${svg(p)}</div>`};
+const off=p=>Math.round((1-p.price/p.mrp)*100);
+function card(p){return `<div class="card"><span class="tag">${off(p)}% off${p.stock?"":" · Sold out"}</span><button class="wl" data-w="${p.id}" aria-label="Wishlist">${wish.includes(p.id)?"♥":"♡"}</button><div onclick="openP(${p.id})">${art(p)}</div><div class="info"><h3 onclick="openP(${p.id})">${esc(p.name)}</h3><div class="rt">★ ${p.rt} <span class="note">· ${p.cat}</span></div><div class="price"><b>${inr(p.price)}</b><s>${inr(p.mrp)}</s><em>${off(p)}% off</em></div><p style="margin:8px 0 0"><button class="btn s" onclick="add(${p.id})" ${p.stock?"":"disabled"}>Add to cart</button></p></div></div>`}
+// filters
+const cats=Object.keys(CAT);
+$("#fc").innerHTML=`<option value="">All categories</option>`+cats.map(c=>`<option>${c}</option>`).join("");
+$("#fcol").innerHTML=`<option value="">Any colour</option>`+Object.keys(COL).map(c=>`<option>${c}</option>`).join("");
+$("#chips").innerHTML=cats.map(c=>`<button class="chip" data-c="${c}"><span>${CAT[c]}</span>${c}</button>`).join("");
+$("#promo").innerHTML=[["✨ The Pearl Collection","col:Pearl"],["Luxury Under ₹999","max:999"],["Elegant Homes Under ₹2,999","max:2999"],["Signature Collection","min:5000"]].map(x=>`<button class="chip" data-pr="${x[1]}">${x[0]}</button>`).join("");
+let pr=null;
+function render(){let l=P.filter(p=>(!$("#fc").value||p.cat===$("#fc").value)&&(!$("#fcol").value||p.col===$("#fcol").value)&&p.rt>=+$("#fr").value);
+const r=$("#fp").value;if(r){const[a,b]=r.split("-").map(Number);l=l.filter(p=>p.price>=a&&p.price<=b)}
+if(pr){const[k,v]=pr.split(":");l=l.filter(p=>k==="col"?p.col===v:k==="max"?p.price<=+v:p.price>=+v)}
+const s=$("#fs").value;l.sort((a,b)=>s==="lo"?a.price-b.price:s==="hi"?b.price-a.price:s==="rt"?b.rt-a.rt:s==="new"?b.id-a.id:b.sold-a.sold);
+$("#grid").innerHTML=l.length?l.map(card).join(""):"<p>No products match these filters.</p>";
+const rv=recent.map(i=>P[i]).filter(Boolean).slice(0,4);$("#rv").innerHTML=rv.length?`<h2 style="font-size:28px;margin-top:48px">Recently viewed</h2><div class="grid" style="margin-top:16px">${rv.map(card).join("")}</div>`:"";badges()}
+["fc","fp","fcol","fr","fs"].forEach(i=>$("#"+i).onchange=()=>{pr=null;render()});
+function filt(){$("#shop").scrollIntoView()}
+$("#chips").onclick=e=>{const b=e.target.closest("[data-c]");if(b){$("#fc").value=b.dataset.c;pr=null;render();filt()}};
+$("#promo").onclick=e=>{const b=e.target.closest("[data-pr]");if(b){pr=b.dataset.pr;$("#fc").value="";render();filt()}};
+$$("nav a[data-s]").forEach(a=>a.onclick=()=>{$("#fs").value=a.dataset.s;render();$("#nav").classList.remove("on")});
+$$("nav a").forEach(a=>a.addEventListener("click",()=>$("#nav").classList.remove("on")));
+$("#mb").onclick=()=>$("#nav").classList.toggle("on");
+document.addEventListener("click",e=>{const w=e.target.closest("[data-w]");if(w){tw(+w.dataset.w)}});
+function tw(id){wish=wish.includes(id)?wish.filter(x=>x!==id):[...wish,id];sv("lc_wish",wish);render();toast(wish.includes(id)?"Added to wishlist":"Removed from wishlist")}
+// search
+$("#q").oninput=e=>{const v=e.target.value.trim().toLowerCase(),s=$("#sug");if(!v){s.style.display="none";return}
+const m=P.filter(p=>(p.name+p.cat+p.col).toLowerCase().includes(v)).slice(0,5);s.innerHTML=m.map(p=>`<button onclick="openP(${p.id})">${CAT[p.cat]} ${esc(p.name)} – ${inr(p.price)}</button>`).join("")||`<button>No matches</button>`;s.style.display="block"};
+$("#q").onkeydown=e=>{if(e.key==="Enter"){const v=e.target.value.toLowerCase();const m=P.filter(p=>(p.name+p.cat).toLowerCase().includes(v));$("#grid").innerHTML=m.map(card).join("")||"<p>No results.</p>";filt();$("#sug").style.display="none"}};
+document.addEventListener("click",e=>{if(!e.target.closest(".sw"))$("#sug").style.display="none"});
+// product modal
+function openP(id){const p=P[id];$("#sug").style.display="none";recent=[id,...recent.filter(x=>x!==id)].slice(0,8);sv("lc_recent",recent);
+const rel=P.filter(x=>x.cat===p.cat&&x.id!==id).slice(0,3);
+$("#dc").innerHTML=`<div class="two"><div>${art(p)}<div class="thumbs">${[0,1,2].map(i=>`<div>${svg(p,i)}</div>`).join("")}</div><p class="note">Illustrated product view (demo).</p></div>
+<div><h2 style="text-align:left;font-size:32px">${esc(p.name)}</h2><div class="rt">★ ${p.rt} (${Math.round(p.sold/4)} verified reviews)</div>
+<p class="price"><b style="font-size:26px">${inr(p.price)}</b><s>${inr(p.mrp)}</s><em>${off(p)}% off</em></p>
+<p>A ${p.style.toLowerCase()} piece in ${p.col.toLowerCase()} that adds understated luxury to your ${p.cat.toLowerCase()} space. Demo description.</p>
+<table><tr><td>Material</td><td>${p.mat}</td></tr><tr><td>Colour</td><td>${p.col}</td></tr><tr><td>Dimensions</td><td>${20+p.id%5*6} × ${12+p.id%4*5} × ${10+p.id%3*8} cm</td></tr><tr><td>Weight</td><td>${(0.3+p.id%6*0.25).toFixed(2)} kg</td></tr><tr><td>Stock</td><td>${p.stock?(p.stock<5?"Only "+p.stock+" left":"In stock"):"Out of stock"}</td></tr><tr><td>Delivery</td><td>4–7 business days · ${p.price>=1999?"Free shipping":"Free above ₹1,999"}</td></tr><tr><td>Returns</td><td>7-day return / exchange</td></tr><tr><td>Care</td><td>Wipe with a soft dry cloth</td></tr></table>
+<p style="margin-top:14px"><button class="btn" onclick="add(${id});$('#dlg').close();$('#cart').classList.add('on')" ${p.stock?"":"disabled"}>Buy Now</button> <button class="btn o" onclick="add(${id})" ${p.stock?"":"disabled"}>Add to Cart</button> <button class="btn o" data-w="${id}">♡ Wishlist</button></p></div></div>
+${rel.length?`<h3 style="margin:24px 0 10px">You may also like</h3><div class="grid" style="grid-template-columns:repeat(3,1fr)">${rel.map(card).join("")}</div>`:""}`;
+$("#dlg").showModal();render()}
+$("#dx").onclick=()=>$("#dlg").close();
+// cart
+function add(id,n=1){const p=P[id];if(!p.stock)return;cart[id]=Math.min((cart[id]||0)+n,p.stock);sv("lc_cart",cart);badges();drawCart();toast("Added to cart")}
+function badges(){$("#cc").textContent=Object.values(cart).reduce((a,b)=>a+b,0);$("#wc").textContent=wish.length}
+function totals(){const sub=Object.entries(cart).reduce((s,[i,q])=>s+P[i].price*q,0);const d=coupon==="LUMERA10"?sub*.1:coupon==="WELCOME200"&&sub>=1500?200:0;const net=sub-d,ship=net>=1999||!net?0:99;return{sub,d,ship,tot:net+ship,gst:(net)*18/118}}
+function drawCart(){const e=Object.entries(cart);$("#ci").innerHTML=e.length?e.map(([i,q])=>{const p=P[i];return `<div class="ci">${art(p)}<div>${esc(p.name)}<br><b>${inr(p.price)}</b></div><div class="qty"><button onclick="qt(${i},-1)">−</button>${q}<button onclick="qt(${i},1)">+</button></div></div>`}).join(""):"<p>Your cart is empty.</p>";
+const t=totals();$("#sm").innerHTML=`<div><span>Subtotal</span><span>${inr(t.sub)}</span></div>${t.d?`<div><span>Discount (${coupon})</span><span>−${inr(t.d)}</span></div>`:""}<div><span>Shipping</span><span>${t.ship?inr(t.ship):"Free"}</span></div><div><span>incl. GST (18%)</span><span>${inr(t.gst)}</span></div><div style="font-weight:600;font-size:17px"><span>Total</span><span>${inr(t.tot)}</span></div><p class="note">Free shipping on orders ₹1,999+</p>`;badges()}
+function qt(i,d){cart[i]=(cart[i]||0)+d;if(cart[i]<=0)delete cart[i];cart[i]&&(cart[i]=Math.min(cart[i],P[i].stock));sv("lc_cart",cart);drawCart()}
+$("#cb").onclick=()=>{drawCart();$("#cart").classList.add("on")};$("#cx").onclick=()=>$("#cart").classList.remove("on");
+$("#ca").onclick=()=>{const c=$("#cp").value.trim().toUpperCase(),t=totals();if(c==="LUMERA10"||(c==="WELCOME200"&&t.sub>=1500)){coupon=c;toast("Coupon applied")}else{coupon=null;toast(c==="WELCOME200"?"WELCOME200 needs ₹1,500+":"Invalid coupon")}drawCart()};
+$("#wb").onclick=()=>{$("#grid").innerHTML=wish.length?wish.map(i=>card(P[i])).join(""):"<p>Your wishlist is empty.</p>";filt()};
+// checkout
+$("#co").onclick=()=>{if(!Object.keys(cart).length)return toast("Cart is empty");const t=totals();
+$("#dc").innerHTML=`<h2 style="text-align:left">Checkout</h2><form id="chk"><div class="rg"><div><label>Full name</label><input name="n" required><label>Phone</label><input name="p" required pattern="[6-9][0-9]{9}" title="10-digit Indian mobile"><label>Email (optional for guests)</label><input name="e" type="email"></div><div><label>Shipping address</label><textarea name="a" rows="2" required></textarea><label>City</label><input name="c" required><label>PIN code</label><input name="z" required pattern="[1-9][0-9]{5}" title="6-digit PIN" inputmode="numeric"></div></div>
+<div class="pay"><label>Payment</label><label><input type="radio" name="pm" checked> Cash on Delivery</label><label class="off"><input type="radio" disabled> UPI · Cards · Net banking · Wallets – <span class="note">activates after Razorpay (or similar) is integrated</span></label></div>
+<p><b>Total payable: ${inr(t.tot)}</b> <span class="note">(incl. ${inr(t.gst)} GST)</span></p><button class="btn">Place order</button></form>`;
+$("#dlg").showModal();$("#chk").onsubmit=e=>{e.preventDefault();const f=Object.fromEntries(new FormData(e.target)),t=totals();
+const o={id:"LL"+Date.now().toString().slice(-7),date:new Date().toLocaleDateString("en-IN"),items:Object.entries(cart).map(([i,q])=>P[i].name+" × "+q),total:t.tot,city:f.c,pin:f.z,status:"Confirmed"};
+orders.unshift(o);sv("lc_orders",orders);Object.entries(cart).forEach(([i,q])=>P[i].stock-=q);cart={};coupon=null;sv("lc_cart",cart);drawCart();$("#cart").classList.remove("on");
+$("#dc").innerHTML=`<h2>Thank you! 🎉</h2><p style="text-align:center">Order <b>${o.id}</b> is confirmed. Pay ${inr(o.total)} on delivery. Estimated delivery: 4–7 business days.</p><p style="text-align:center"><button class="btn" onclick="showOrders()">Track my orders</button></p>`}};
+function showOrders(){const steps=["Confirmed","Packed","Shipped","Delivered"];$("#dc").innerHTML=`<h2 style="text-align:left">Your orders</h2>`+(orders.length?orders.map((o,i)=>`<div class="glass" style="margin:10px 0;padding:16px"><b>${o.id}</b> · ${o.date} · ${inr(o.total)}<br><span class="note">${o.items.map(esc).join(", ")}</span><br>${o.status==="Cancelled"?"❌ Cancelled":steps.map(s=>(steps.indexOf(s)<=steps.indexOf(o.status)?"● ":"○ ")+s).join("  →  ")}<br>${o.status==="Confirmed"?`<button class="btn s o" onclick="cancelO(${i})" style="margin-top:8px">Cancel order</button>`:""}</div>`).join(""):"<p>No orders yet.</p>");$("#dlg").showModal()}
+function cancelO(i){orders[i].status="Cancelled";sv("lc_orders",orders);showOrders();toast("Order cancelled")}
+$("#tk").onclick=e=>{e.preventDefault();showOrders()};$("#acc").onclick=showOrders;
+// guide
+const MAP={"Living room":["Living Room","Lighting","Wall Décor","Artificial Plants"],"Bedroom":["Bedroom","Lighting","Wall Décor"],"Kitchen":["Kitchen & Dining"],"Dining area":["Kitchen & Dining","Lighting"],"Bathroom":["Bathroom","Artificial Plants"],"Office":["Wall Décor","Lighting","Artificial Plants"],"Entire home":cats};
+$("#gf").onsubmit=async e=>{e.preventDefault();const f=new FormData(e.target),budget=+f.get("budget"),space=f.get("space"),style=f.get("style"),pool=P.filter(p=>p.stock&&MAP[space].includes(p.cat));
+const want=P.filter(p=>p.style===style).map(p=>p.id);pool.sort((a,b)=>(want.includes(b.id)-want.includes(a.id))||(b.rt-a.rt));
+let list=[],tot=0,seen={};const cap=budget>=40000?60000:budget;
+for(const p of pool){if(tot+p.price<=cap&&(seen[p.cat]||0)<(space==="Entire home"?2:3)){list.push(p);tot+=p.price;seen[p.cat]=(seen[p.cat]||0)+1}}
+let img="";const file=f.get("photo");if(file&&file.size){img=await new Promise(r=>{const fr=new FileReader();fr.onload=()=>r(fr.result);fr.readAsDataURL(file)})}
+const tips={"Living Room":"Anchor the coffee table with a tray and one statement vase.","Lighting":"Layer warm light at two heights – table level and wall level.","Wall Décor":"Hang art with its centre at eye level (~145 cm).","Bedroom":"Repeat one accent colour across cushions and throw.","Kitchen & Dining":"Keep a single runner or centrepiece to avoid clutter.","Bathroom":"Match dispensers and baskets in one finish.","Artificial Plants":"Group plants in odd numbers near light sources.","Festive":"","Gifting":""};
+$("#booklet").innerHTML=`<div class="glass"><div class="eyebrow">Personalised for you</div><h2 style="text-align:left">${esc(style)} ${esc(space)}</h2>${img?`<img src="${img}" alt="Your room" style="max-width:260px;border-radius:16px;margin:8px 0">`:""}<p>Palette: <b>${esc(f.get("col"))}</b> · Purpose: ${esc(f.get("purpose"))}${f.get("extra")?`<br>Your notes: ${esc(f.get("extra"))}`:""}</p>
+<p class="note">Selected to stay within your budget of ${budget>=40000?"₹25,000+":"₹"+budget.toLocaleString("en-IN")} – we don’t upsell.</p>
+${list.length?list.map(p=>`<div class="row"><span>${CAT[p.cat]} <a href="#shop" onclick="openP(${p.id})" style="color:var(--gold)">${esc(p.name)}</a><br><span class="note">${p.cat}: ${tips[p.cat]||"Place where it catches soft light."}</span></span><b>${inr(p.price)}</b></div>`).join("")+`<div class="row"><b>Estimated total</b><b>${inr(tot)}</b></div>`:"<p>No products fit this budget yet – widen it or talk to our team.</p>"}
+<p class="noprint"><button class="btn s" id="ba">Add all to cart</button> <button class="btn s o" onclick="window.print()">Download PDF (Save as PDF)</button> <a class="btn s o" href="mailto:INSERT-EMAIL@example.com?subject=Décor%20assistance%20request&body=${encodeURIComponent(space+", "+style+", budget "+budget)}">Ask décor team</a></p></div>`;
+$("#ba")&&($("#ba").onclick=()=>{list.forEach(p=>add(p.id));$("#cart").classList.add("on")});$("#booklet").scrollIntoView({behavior:"smooth"})};
+// forms
+$("#cf").onsubmit=e=>{e.preventDefault();const f=Object.fromEntries(new FormData(e.target));location.href=`mailto:INSERT-EMAIL@example.com?subject=${encodeURIComponent(f.s)}&body=${encodeURIComponent(f.m+"\n\n"+f.n+" | "+f.e+" | "+f.p)}`;toast("Opening your email app…")};
+$("#nf").onsubmit=e=>{e.preventDefault();const s=ld("lc_news",[]);s.push(e.target[0].value);sv("lc_news",s);e.target.reset();toast("Subscribed (saved locally in demo)")};
+render();drawCart();
+</script></body></html>
