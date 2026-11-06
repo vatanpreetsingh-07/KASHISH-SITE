@@ -1,0 +1,13 @@
+{
+  "name": "kashish-lumera-living",
+  "version": "1.0.0",
+  "description": "100% replica of lumera-living.vercel.app luxury home decor site",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "dev": "npx serve . -l 3000"
+  },
+  "keywords": ["ecommerce", "home-decor", "lumera-living"],
+  "author": "",
+  "license": "MIT"
+}
